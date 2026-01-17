@@ -64,6 +64,10 @@ ul {
     color: #404BBF;
 }
 
+.address {
+    font-style: normal;
+}
+
 .contacts-link {
     font-style: normal;
     font-weight: 400;
@@ -117,13 +121,19 @@ ul {
     background-color: #F4F4FD;
 }
 
-.section-team .teams-card {
+.teams-card {
     background-color: #FFFFFF;
+    text-align: left;
 }
 
 .teams-name,
 .teams-role {
     text-align: center;
+}
+
+.portfolio-card {
+    background-color: #FFFFFF;
+    text-align: left;
 }
 
 .footer-section {
