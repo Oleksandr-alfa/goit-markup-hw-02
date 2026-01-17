@@ -1,26 +1,30 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
 }
 
 h3 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 p {
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -32,9 +36,12 @@ ul {
 .logo-link {
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     color: #2E2F42;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -59,7 +66,7 @@ ul {
 
 .header-contacts-list .link {
     font-style: normal;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
@@ -75,7 +82,7 @@ ul {
     background-color: #2E2F42;
 }
 .main-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -99,8 +106,16 @@ ul {
     background-color: #404BBF;
 }
 
+.section-main-button:focus {
+    background-color: #404BBF;
+}
+
 .section-team {
     background-color: #F4F4FD;
+}
+
+.section-team .teams-card {
+    background-color: #FFFFFF;
 }
 
 .teams-name,
@@ -115,9 +130,12 @@ ul {
 .footer-logo-link {
     font-family: Raleway, sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     color: #F4F4FD;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
